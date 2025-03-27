@@ -133,6 +133,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "70592f16-d0d9-42f4-a2b8-6f8bf6b97d8c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x895",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "8edac7fb-e74a-4ec7-937f-e9444bfe87fb",
       "comment": "",
       "command": "verifyElementPresent",
@@ -290,6 +297,13 @@
       "comment": "",
       "command": "open",
       "target": "https://thegeneticsguy.github.io/cse270-teton/admin.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b589c38-7fec-427a-af2b-eaec2a87fea4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x895",
       "targets": [],
       "value": ""
     }, {

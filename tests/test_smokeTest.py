@@ -23,6 +23,7 @@ class TestSmokeTest():
 
   def test_adminPage(self):
     self.driver.get("https://thegeneticsguy.github.io/cse270-teton/admin.html")
+    self.driver.set_window_size(1200, 895)
     elements = self.driver.find_elements(By.ID, "username")
     assert len(elements) > 0
     self.driver.find_element(By.ID, "username").send_keys("admin")
@@ -58,6 +59,7 @@ class TestSmokeTest():
 
   def test_joinPage(self):
     self.driver.get("https://thegeneticsguy.github.io/cse270-teton/join.html")
+    self.driver.set_window_size(1200, 895)
     elements = self.driver.find_elements(By.NAME, "fname")
     assert len(elements) > 0
     self.driver.find_element(By.NAME, "fname").send_keys("Aaron")
